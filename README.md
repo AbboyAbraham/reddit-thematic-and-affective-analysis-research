@@ -4,8 +4,7 @@ This research venture is a blueprint to explore public perception and emotional 
 Theoretical Framework
 This study is guided by an integrated framework rooted in Computational Social Science (CSS) and Computer-Assisted Thematic Analysis.
 
-Sentiment & Emotion Analysis: Guided by the valence-based models of Hutto and Gilbert (2014). We utilize Transformer-based models (Devlin et al., 2019) to move beyond keyword matching, capturing the contextual emotional weight of language in social media discourse.
-
+Sentiment & Emotion Analysis: Sentiment analysis utilizes the valence-based VADER model (Hutto & Gilbert, 2014) for computational efficiency, while Emotion classification leverages Transformer-based models (Devlin et al., 2019) to capture complex emotional archetypes.
 Thematic Analysis: We align with Braun and Clarke’s (2021) framework for thematic analysis. By utilizing Latent Dirichlet Allocation (LDA) for first-cycle data-driven clustering, the project combines computational efficiency with a second-cycle qualitative interpretation for deep analytical depth.
 
 Research Procedure
@@ -47,3 +46,4 @@ Hutto, C.J. & Gilbert, E.E. (2014). VADER: A Parsimonious Rule-based Model for S
 Lazer, D., et al. (2009). Computational Social Science. Science.
 
 Devlin, J., et al. (2019). BERT: Pre-training of Deep Bidirectional Transformers.
+
