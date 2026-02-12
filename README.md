@@ -19,7 +19,7 @@ Stage 2: Computational Analysis
 I triangulated findings through three parallel NLP streams:
 Sentiment Analysis: Quantifying affective tone using a customized VADER model.
 Emotion Classification: Utilizing a state-of-the-art Transformer model (DistilRoBERTa) to identify complex emotional archetypes.
-Topic Modeling: Unsupervised LDA to identify thematic content and discursive clusters.
+Topic Modeling:  LDA to identify thematic content and discursive clusters. (I would recommend embedding-based topic modeling like BERTopic)
 
 Stage 3: Ethical De-identification
 In alignment with the Association of Internet Researchers (AoIR, 2020) and Fiesler & Proferes (2018), a final ethical pass was executed. This programmatic de-identification script redacts personally identifiable information (PII) to protect user privacy and minimize harm.
@@ -29,7 +29,7 @@ Disclaimer & Open Collaboration
 
 Project Status: This is a self-initiated research project developed independently to explore the intersections of data science and social phenomena, I am a psychologist who is very interested tech.
 
-Use of AI: In the spirit of transparency, I acknowledge the use of AI tools (including Google AI Studio and Large Language Models) to assist in writing the code, and refining the documentation. This project serves as a practical application of human-AI collaboration in computational research and I hope to make it up for the water I've wasted. I have tried and failed to run AI offline mostly due to lack of GPU. I've learnt coding through youtube and hence the AI dependence (Not an excuse ik) 
+Use of AI: In the spirit of transparency, I acknowledge the use of AI tools (including Google AI Studio and Large Language Models) to assist in writing the code, and refining the documentation. This project serves as a practical application of human-AI collaboration in computational research and I hope to make it up for the water I've wasted. I have tried and failed to run AI offline mostly due to lack of GPU. As a psychologist, this project is a cross-disciplinary effort. The code was developed through a combination of AI-assisted programming and self-directed learning.
 
 Open to Feedback: As this is an independent project, I am fully open to and welcome suggestions, methodological critiques, or recommendations for further optimization. 
 Whether you have ideas for improving the LDA topic modeling or suggestions for additional data sources, please feel free to:
@@ -46,4 +46,5 @@ Hutto, C.J. & Gilbert, E.E. (2014). VADER: A Parsimonious Rule-based Model for S
 Lazer, D., et al. (2009). Computational Social Science. Science.
 
 Devlin, J., et al. (2019). BERT: Pre-training of Deep Bidirectional Transformers.
+
 
